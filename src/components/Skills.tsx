@@ -21,7 +21,7 @@ const Skills = () => {
       name: "Frontend",
       icon: Layout,
       color: "#EC4899", // pink
-      skills: ["React.js", "React Native", "Angular", "Lit", "HTML5", "CSS3", "Figma Plugin Development", "Component Library Development", "SDK Development", "Design Systems"],
+      skills: ["React.js", "Next.js", "React Native", "HTML5", "CSS3", "Figma Plugin Development", "Component Library Development", "SDK Development", "Design Systems"],
       description: "Tools and frameworks I use to create beautiful, responsive user interfaces."
     },
     {
@@ -35,14 +35,14 @@ const Skills = () => {
       name: "Databases",
       icon: Database,
       color: "#F59E0B", // amber
-      skills: ["MySQL", "NoSQL", "MongoDB", "Firebase Realtime Database", "Firestore"],
+      skills: ["MySQL", "NoSQL", "MongoDB", "Firebase Realtime Database"],
       description: "Database systems I use to efficiently store and retrieve data."
     },
     {
       name: "Others",
       icon: Terminal,
       color: "#8B5CF6", // violet
-      skills: ["Git", "Linux", "Testing", "Debugging", "Agile", "SDLC", "ARIA", "Internationalization", "Problem-Solving"],
+      skills: ["Git", "Testing", "Debugging", "Agile", "SDLC", "Internationalization", "Problem-Solving"],
       description: "Additional tools and methodologies that enhance my development workflow."
     }
   ];
