@@ -107,7 +107,7 @@ const experiences = [
     title: "Web Development Intern",
     period: "06/2022 – 06/2022",
     startDate: "06/2022",
-    endDate: "07/2022",
+    endDate: "06/2022",
     location: "Vadodara, India",
     isInternship: true,
     responsibilities: [
