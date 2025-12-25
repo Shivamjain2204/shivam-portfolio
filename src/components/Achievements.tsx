@@ -8,31 +8,13 @@ import { GlassCard } from "@/components/ui/GlassCard";
 const achievements = [
   {
     id: 1,
-    title: "Winner of Web Development Contest",
-    event: "Tech Adrishta Fest, SMIT",
-    date: "12/2020",
-    location: "Sikkim, India",
-    description: "Built a web app which can hypothetically predict your survival odds in Titanic using Machine Learning.",
+    title: "Mercor Hackathon",
+    event: "Textbase Titans Hackathon",
+    date: "09/2023",
+    location: "Bangalore, India",
+    description: "Worked with Textbase, a framework for building AI chatbots that poses relevant follow-up questions, and offer suggestions by searching through database.",
     icon: Trophy
   },
-  {
-    id: 2,
-    title: "NPTEL Course Topper",
-    event: "IIT Kharagpur, India",
-    date: "04/2019",
-    location: "IIT Kharagpur, India",
-    description: "Joy of Computing using Python (93%). Received Elite Certificate with Gold Medal along with an award for being in top 5 percentile among 9034 certified candidates.",
-    icon: Medal
-  },
-  {
-    id: 3,
-    title: "Secured 2nd position in Hackathon",
-    event: "Tech Adrishta Fest, SMIT",
-    date: "12/2020",
-    location: "Sikkim, India",
-    description: "Built a web app ChessMate that allows the users to play and practice chess against a bot and analyse their every move to get better. Added features to show various information regarding the game as it progresses like the current winning probability, mistakes, Inaccuracies, blunders and also an option to get the best possible move at the given Board State.",
-    icon: Award
-  }
 ];
 
 const Achievements = () => {
@@ -72,7 +54,14 @@ const Achievements = () => {
           />
         </motion.div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> */}
+          <div
+            className={`grid gap-8 ${
+              achievements.length === 1
+                ? "grid-cols-1 place-items-center"
+                : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+            }`}
+          >
           {achievements.map((achievement, index) => (
             <motion.div
               key={achievement.id}
