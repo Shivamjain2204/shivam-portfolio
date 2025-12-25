@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Chrome, Code, Database, Library, ShoppingBag, Music, Film } from "lucide-react";
+import { ExternalLink, Github, Chrome, Code, Database, Library, ShoppingBag, Worm, Music, Film, Gamepad2, Newspaper, CodeXml } from "lucide-react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -15,7 +15,7 @@ const Projects = () => {
       title: "CodeSphere",
       description: "A platform offering practical courses to build essential professional skills and boost career growth.",
       tech: ["Next.js", "TypeScript"],
-      icon: ShoppingBag,
+      icon: CodeXml,
       color: "bg-blue-600",
       link: "https://nextjs-project-theta-taupe.vercel.app/"
     },
@@ -23,7 +23,7 @@ const Projects = () => {
       title: "Snake Game",
       description: "The player controls a snake that moves around, eats food to grow longer, and avoids walls or its own tail.",
       tech: ["HTML", "CSS", "JavaScript"],
-      icon: Music,
+      icon: Gamepad2,
       color: "bg-purple-600",
       link: "https://snake-game-topaz.vercel.app/"
     },
@@ -31,7 +31,7 @@ const Projects = () => {
       title: "MyBlog",
       description: "A simple and intuitive app to share your thoughts and creativity effortlessly online with a global audience every day",
       tech: ["React", "CSS", "Appwrite"],
-      icon: Music,
+      icon: Newspaper,
       color: "bg-purple-600",
       link: "https://myblog-murex-two.vercel.app/"
     },
