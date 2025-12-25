@@ -25,7 +25,7 @@ const Projects = () => {
       tech: ["HTML", "CSS", "JavaScript"],
       icon: Music,
       color: "bg-purple-600",
-      link: "snake-game-topaz.vercel.app"
+      link: "https://snake-game-topaz.vercel.app/"
     },
     {
       title: "MyBlog",
@@ -33,7 +33,7 @@ const Projects = () => {
       tech: ["React", "CSS", "Appwrite"],
       icon: Music,
       color: "bg-purple-600",
-      link: "myblog-murex-two.vercel.app"
+      link: "https://myblog-murex-two.vercel.app/"
     },
   ];
 
