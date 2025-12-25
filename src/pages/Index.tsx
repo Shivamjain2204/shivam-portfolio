@@ -103,10 +103,10 @@ const Index = () => {
           <Experience />
           <Skills />
           <Achievements />
-          <OpenSource />
-          <Blogs />
-          <TechTalks />
-          <Hobbies />
+          {/* <OpenSource /> */}
+          {/* <Blogs /> */}
+          {/* <TechTalks /> */}
+          {/* <Hobbies /> */}
           <Contact />
         </div>
       </main>

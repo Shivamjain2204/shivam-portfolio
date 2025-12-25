@@ -17,25 +17,25 @@ const Footer = () => {
   const socialLinks = [
     { 
       icon: Github, 
-      href: "https://github.com/mayank-96", 
+      href: "https://github.com/Shivamjain2204", 
       label: "GitHub",
       color: contactColor
     },
     { 
       icon: Linkedin, 
-      href: "https://linkedin.com/in/mayank-pagar", 
+      href: "https://www.linkedin.com/in/shivam-jain2204/", 
       label: "LinkedIn",
       color: contactColor
     },
     { 
       icon: Twitter, 
-      href: "https://x.com/mayankp09_", 
+      href: "https://x.com/Shivamjain013", 
       label: "Twitter",
       color: contactColor
     },
     { 
       icon: Mail, 
-      href: "mailto:pagarmayank07@gmail.com", 
+      href: "jainshivam2204@gmail.com", 
       label: "Email",
       color: contactColor
     }
@@ -65,7 +65,7 @@ const Footer = () => {
                   <Terminal size={20} style={{ color: contactColor }} />
                 </div>
                 <div className="text-2xl font-mono font-bold">
-                  <span>Mayank</span>
+                  <span>Shivam</span>
                 </div>
               </motion.div>
               <motion.p 
@@ -160,9 +160,9 @@ const Footer = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                <p>pagarmayank07@gmail.com</p>
-                <p>+91 7620415699</p>
-                <p>Nashik, India</p>
+                <p>jainshivam2204@gmail.com</p>
+                <p>+91 7620150801</p>
+                <p>Navi Mumbai, India</p>
               </motion.div>
             </div>
           </div>
@@ -188,7 +188,7 @@ const Footer = () => {
             >
               <Heart size={16} style={{ color: contactColor }} />
             </motion.span> 
-            in Mumbai, India
+            in Navi Mumbai, India
           </p>
         </motion.div>
       </div>
