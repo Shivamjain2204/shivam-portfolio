@@ -35,10 +35,10 @@ const Header = () => {
   ];
 
   const socials = [
-    { icon: Github, href: "https://github.com/mayank-96", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/mayank-pagar", label: "LinkedIn" },
-    { icon: Twitter, href: "https://x.com/mayankp09_", label: "Twitter" },
-    { icon: Mail, href: "mailto:pagarmayank07@gmail.com", label: "Email" }
+    { icon: Github, href: "https://github.com/Shivamjain2204", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/shivam-jain2204/", label: "LinkedIn" },
+    { icon: Twitter, href: "https://x.com/Shivamjain013", label: "Twitter" },
+    { icon: Mail, href: "mailto:jainshivam2204@gmail.com", label: "Email" }
   ];
 
   return (
@@ -62,7 +62,7 @@ const Header = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <div className="flex items-baseline">
-              <span className="text-foreground group-hover:text-primary transition-colors duration-300">Mayank</span>
+              <span className="text-foreground group-hover:text-primary transition-colors duration-300">Shivam</span>
             </div>
           </motion.a>
 
