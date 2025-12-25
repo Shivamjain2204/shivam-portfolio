@@ -179,7 +179,7 @@ const Header = () => {
                   <Terminal size={18} />
                 </div>
                 <div className="flex items-baseline">
-                  <span className="text-foreground">Mayank</span>
+                  <span className="text-foreground">Shivam</span>
                   <span className="text-primary">.dev</span>
                 </div>
               </a>
