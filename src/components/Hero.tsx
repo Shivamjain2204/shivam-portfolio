@@ -116,8 +116,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              I'm a dedicated software engineer with experience in building applications for web and mobile platforms. 
-              My passion for software lies with dreaming up ideas and making them come true with elegant pixel-perfect interfaces.
+              Results-oriented Frontend Developer👨🏻‍💻 with expertise in React🕸️ and Next.js, building scalable, AI-powered web applications that enhance user experiences and drive growth.
             </motion.p>
             
             <motion.div 
@@ -178,20 +177,20 @@ const Hero = () => {
                 
                 <div className="pl-6 space-y-1.5">
                   <div>
-                    <span className="text-orange-600 dark:text-orange-400">name</span>: <span className="text-green-600 dark:text-green-400">'Mayank Pagar'</span>,
+                    <span className="text-orange-600 dark:text-orange-400">name</span>: <span className="text-green-600 dark:text-green-400">'Shivam Jain'</span>,
                   </div>
                   <div>
                     <span className="text-orange-600 dark:text-orange-400">title</span>: <span className="text-green-600 dark:text-green-400">'Software Engineer'</span>,
                   </div>
                   <div>
-                    <span className="text-orange-600 dark:text-orange-400">location</span>: <span className="text-green-600 dark:text-green-400">'Nashik, India'</span>,
+                    <span className="text-orange-600 dark:text-orange-400">location</span>: <span className="text-green-600 dark:text-green-400">'Mumbai, India'</span>,
                   </div>
                   <div>
                     <span className="text-orange-600 dark:text-orange-400">skills</span>: [
                   </div>
                   <div className="pl-6">
                     <span className="text-green-600 dark:text-green-400">'React'</span>,{" "}
-                    <span className="text-green-600 dark:text-green-400">'Angular'</span>,{" "}
+                    <span className="text-green-600 dark:text-green-400">'Next.js'</span>,{" "}
                     <span className="text-green-600 dark:text-green-400">'React Native'</span>,{" "}
                   </div>
                   <div className="pl-6">
