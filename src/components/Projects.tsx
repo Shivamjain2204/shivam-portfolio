@@ -12,49 +12,49 @@ const Projects = () => {
 
   const personalProjects = [
     {
-      title: "Mariela Cushions",
-      description: "Simple static website for showcasing premium handcrafted cushions, built with HTML, CSS, and JavaScript",
-      tech: ["HTML", "CSS", "JavaScript"],
+      title: "CodeSphere",
+      description: "A platform offering practical courses to build essential professional skills and boost career growth.",
+      tech: ["Next.js", "TypeScript"],
       icon: ShoppingBag,
       color: "bg-blue-600",
-      link: "https://mariela-cushions.vercel.app/"
+      link: "https://nextjs-project-theta-taupe.vercel.app/"
     },
     {
-      title: "Wave Music Player",
-      description: "Static React music player application with streaming and playlist creation features",
-      tech: ["React", "CSS", "Web Audio API"],
+      title: "Snake Game",
+      description: "The player controls a snake that moves around, eats food to grow longer, and avoids walls or its own tail.",
+      tech: ["HTML", "CSS", "JavaScript"],
       icon: Music,
       color: "bg-purple-600",
-      link: "https://wave-music-player-psi.vercel.app/"
+      link: "snake-game-topaz.vercel.app"
     },
     {
-      title: "WhatToWatch",
-      description: "React application for finding movies and TV shows based on user search queries",
-      tech: ["React", "TMDb API", "CSS"],
-      icon: Film,
-      color: "bg-red-500",
-      link: "https://whattowatch.app"
-    }
+      title: "MyBlog",
+      description: "A simple and intuitive app to share your thoughts and creativity effortlessly online with a global audience every day",
+      tech: ["React", "CSS", "Appwrite"],
+      icon: Music,
+      color: "bg-purple-600",
+      link: "myblog-murex-two.vercel.app"
+    },
   ];
 
   const professionalProjects = [
     {
-      title: "Velt Collaboration SDK",
-      description: "Real-time collaboration toolkit for web applications",
-      tech: ["Angular", "TypeScript", "React"],
-      link: "https://velt.dev"
+      title: "ProSchool.ai",
+      description: "An AI-powered personalized learning platform for smarter education.",
+      tech: ["React", "TypeScript", "CSS"],
+      link: "https://proschool.ai/"
     },
     {
-      title: "GlueStack UI",
-      description: "Universal component library for React and React Native",
-      tech: ["React", "React Native", "Storybook"],
-      link: "https://gluestack.io"
+      title: "Arcitech UI",
+      description: "An AI-driven tech company building intelligent web, app, and software solutions for business growth.",
+      tech: ["React", "TypeScript"],
+      link: "https://arcitech.ai/"
     },
     {
-      title: "NativeBase",
-      description: "Accessible component library for React Native",
+      title: "iVoyant",
+      description: "An AI-driven digital solutions company delivering cloud and software services.",
       tech: ["React Native", "TypeScript"],
-      link: "https://nativebase.io"
+      link: "https://www.ivoyant.com/"
     }
   ];
 
@@ -231,7 +231,7 @@ const Projects = () => {
             transition={{ duration: 0.5 }}
           >
             <a 
-              href="https://github.com/mayank-96" 
+              href="https://github.com/Shivamjain2204" 
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 text-foreground/90 hover:text-foreground transition-colors px-6 py-3 rounded-full border hover:border-opacity-50"
