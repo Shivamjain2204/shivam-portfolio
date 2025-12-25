@@ -25,7 +25,7 @@ const Index = () => {
 
   useEffect(() => {
     // Update document title
-    document.title = "Mayank Pagar | Frontend Developer";
+    document.title = "Shivam Jain | Frontend Developer";
     
     // Apply dark mode class immediately
     if (isDarkMode) {
