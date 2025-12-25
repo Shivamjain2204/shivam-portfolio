@@ -176,7 +176,7 @@ const Footer = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
         >
           <p className="flex items-center justify-center gap-1">
-            © {new Date().getFullYear()} Mayank Pagar. Made with 
+            © {new Date().getFullYear()} Shivam Jain. Made with 
             <motion.span 
               initial={{ scale: 1 }}
               animate={{ scale: [1, 1.2, 1] }}
@@ -188,7 +188,7 @@ const Footer = () => {
             >
               <Heart size={16} style={{ color: contactColor }} />
             </motion.span> 
-            in Nashik, India
+            in Mumbai, India
           </p>
         </motion.div>
       </div>
