@@ -90,10 +90,10 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-lg">Email</h4>
                     <a 
-                      href="mailto:pagarmayank07@gmail.com" 
+                      href="mailto:jainshivam2204@gmail.com" 
                       className="text-muted-foreground hover:text-primary transition-colors duration-300"
                     >
-                      pagarmayank07@gmail.com
+                      jainshivam2204@gmail.com
                     </a>
                   </div>
                 </motion.div>
@@ -113,7 +113,7 @@ const Contact = () => {
                       href="tel:+917620415699" 
                       className="text-muted-foreground hover:text-primary transition-colors duration-300"
                     >
-                      +91 7620415699
+                      +91 7620150801
                     </a>
                   </div>
                 </motion.div>
@@ -129,7 +129,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-lg">Location</h4>
-                    <p className="text-muted-foreground">Nashik, Maharashtra, India</p>
+                    <p className="text-muted-foreground">Navi Mumbai, Maharashtra, India</p>
                   </div>
                 </motion.div>
               </div>
@@ -144,7 +144,7 @@ const Contact = () => {
               </h4>
               <div className="flex gap-4">
                 <motion.a 
-                  href="https://github.com/mayank-96" 
+                  href="https://github.com/Shivamjain2204" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-background/50 border rounded-xl flex items-center justify-center hover:bg-opacity-10 hover:border-opacity-30 transition-all duration-300 hover:scale-110"
@@ -157,7 +157,7 @@ const Contact = () => {
                 </motion.a>
                 
                 <motion.a 
-                  href="https://linkedin.com/in/mayank-pagar" 
+                  href="https://www.linkedin.com/in/shivam-jain2204/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-background/50 border rounded-xl flex items-center justify-center hover:bg-opacity-10 hover:border-opacity-30 transition-all duration-300 hover:scale-110"
@@ -170,7 +170,7 @@ const Contact = () => {
                 </motion.a>
                 
                 <motion.a 
-                  href="https://twitter.com/mayankp09_" 
+                  href="https://x.com/Shivamjain013" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-background/50 border rounded-xl flex items-center justify-center hover:bg-opacity-10 hover:border-opacity-30 transition-all duration-300 hover:scale-110"
