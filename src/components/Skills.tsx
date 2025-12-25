@@ -14,7 +14,7 @@ const Skills = () => {
       name: "Languages",
       icon: Code,
       color: "#6366F1", // indigo
-      skills: ["JavaScript", "TypeScript", "Python", "Java"],
+      skills: ["JavaScript", "TypeScript", "Python"],
       description: "Programming languages I'm proficient in, forming the foundation of my technical stack."
     },
     {
