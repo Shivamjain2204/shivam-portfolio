@@ -41,19 +41,39 @@ const experiences = [
   {
     id: "arcitech",
     company: "Arcitech",
-    title: "React Developer",
-    period: "03/2024 – Present",
-    startDate: "02/2024",
+    title: "Project Lead",
+    period: "02/2025 – Present",
+    startDate: "01/2025",
     endDate: "Present",
     location: "Navi Mumbai, India",
     isInternship: false,
     responsibilities: [
       <>Playing a pivotal role in developing an AI-powered <a href="https://proschool.ai/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">educational platform.</a></>,
-      <>Building reusable, modular components, ensuring a scalable architecture and seamless integration with AI-driven features for personalized learning.</>,
+      <>Mentoring junior developers and led code reviews to uphold engineering standards.</>,
+      <>Ensured project KPIs were consistently met through diligent communication and coordination.</>,
       <>Refactored legacy onboarding code for <a href="https://proschool.ai/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">ProSchool</a>, reducing bugs by 99% through improved logic.</>,
       <>Actively contributing to the core development team by driving discussions on feature enhancements, module design, ensuring alignment with the platform's vision and user needs.</>,
+      <>Continuously learning and adapting to new technologies and tools to align with the project outcomes.</>,
+      // <> Mentoring junior developers and led code reviews to uphold engineering standards.</>,
+      // "Enhanced SDK accessibility and globalization via ARIA, test IDs, and internalization.",
+      // "Implemented in-product Video Trimming Editor."
+    ]
+  },
+  {
+    id: "arcitech-react",
+    company: "Arcitech",
+    title: "React Developer",
+    period: "03/2024 – 02/2025",
+    startDate: "02/2024",
+    endDate: "02/2025",
+    location: "Navi Mumbai, India",
+    isInternship: false,
+    responsibilities: [
+      <>Playing a pivotal role in developing an AI-powered <a href="https://proschool.ai/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">educational platform.</a></>,
+      <>Building reusable, modular components, ensuring a scalable architecture and seamless integration with AI-driven features for personalized learning.</>,
+      <>Actively contributing to the core development team by driving discussions on feature enhancements, module design, ensuring alignment with the platform's vision and user needs.</>,
       <>Collaborating with cross-functional teams to integrate AI-driven features such as interactive chatbots.</>,
-      <> Mentoring junior developers and led code reviews to uphold engineering standards.</>,
+      // <> Mentoring junior developers and led code reviews to uphold engineering standards.</>,
       // "Enhanced SDK accessibility and globalization via ARIA, test IDs, and internalization.",
       // "Implemented in-product Video Trimming Editor."
     ]
