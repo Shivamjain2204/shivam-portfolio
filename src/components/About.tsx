@@ -75,7 +75,7 @@ const About = () => {
                   Get in Touch
                 </a>
                 <a 
-                  href="https://drive.google.com/file/d/1UNusr75rgh07P82nS72YWJkr3DodjX6u/view?usp=drive_link"  
+                  href="https://drive.google.com/file/d/1UNusr75rgh07P82nS72YWJkr3DodjX6u/view?usp=sharing"  
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3 border rounded-lg transition-all duration-300 hover:shadow-md"
